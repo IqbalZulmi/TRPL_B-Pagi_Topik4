@@ -1,0 +1,33 @@
+#Dash{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.fa-solid.fa-file-lines.fa-6x{
+    color: #0d6efd   
+}
+#selamat{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14pt ;
+}
+#disini{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    letter-spacing: 1px;   
+}
+.col-md-7.mb-2 p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;   
+}
+.btn-group a.btn.btn-outline-info{
+    border-color: #0d6efd;
+    color: #0d6efd;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+.btn-group a.btn.btn-outline-info:hover{
+    background-color: #6f9af7;
+    color: #111827;
+}

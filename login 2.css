@@ -1,0 +1,81 @@
+html,
+body{
+    height: 100%;
+    background-image: url(cover.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.global-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3776ff;
+}
+.global-container img{
+    height: 440px;
+    width: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 90%;
+}
+
+.login-form{
+    width: 480px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    background: #1a2226bf !important;
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px; 
+}
+
+input[type="text"],input[type="password"] {
+    background: #1a2226;
+    color: #FFF;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+input[type="text"]:focus,input[type="password"]:focus {
+    outline: none;
+    border: none;
+    background: #1a2226;
+    color: #FFF;
+    margin: 0;
+}
+
+.card-body span.d-md-block{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.card-title {
+    font-weight: 900;
+    padding-top: 20px;
+    letter-spacing: 5px;
+}
+.btn {
+    color: #b8cfff !important;
+    transform: translateY(10px);
+    font-size: 14px;
+    border-radius: 10px !important;
+    border-color: #3776ff !important;
+}
+.btn:hover{
+    background-color: #3776ff !important;
+}
+.forgot a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #3776ff;
+    float: right;
+}
+.forgot a:hover{background: rgba(0, 0, 0, 0.452); color: whitesmoke;}
